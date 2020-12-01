@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: adobe-tamil, Rubik;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    padding: 20px;
+    border-bottom: 8px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#title{
+    font-family: 'Rubik';
+    padding-top: 5px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.nav-bar { 
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.nav-bar a{
+    padding: 20px 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited{ 
+    color: black;
+}
+
+.transbox {
+    position: absolute;
+    margin-top: 30px;
+    z-index: -1;
+}
+
+.centered-element {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.mason {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vw;
+    max-height: 700px;
+}
+
+.mason img {
+    width: auto;
+    transition: .6s opacity;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 55%;
+}
+
+.mason:hover img {
+    opacity: .3;
+}
+
+.mason:hover img:hover {
+    opacity: 1;
+    transform: scale(1.5);
+    box-shadow: 1px 1px 5px grey;
+    z-index: 1;
+}
+
+.img {
+    background-position: center;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 100px;
+}
+
+
+.container1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container1:hover img:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: adobe-tamil, Rubik;
+    font-size: 100px;
+    font-style: normal;
+    color: #ffffff;
+}
